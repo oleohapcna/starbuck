@@ -1,0 +1,76 @@
+a{
+    text-decoration: none;
+}
+.contant-his{
+	width: 100%;
+	height: 518px;
+	background: rgba(138,138,138,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(138,138,138,1) 0%, rgba(30,30,30,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(138,138,138,1)), color-stop(100%, rgba(30,30,30,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(138,138,138,1) 0%, rgba(30,30,30,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(138,138,138,1) 0%, rgba(30,30,30,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(138,138,138,1) 0%, rgba(30,30,30,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(138,138,138,1) 0%, rgba(30,30,30,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a8a8a', endColorstr='#1e1e1e', GradientType=1 );
+}
+.card-detail{
+	width: 100%;
+	height: 170px;
+	position: relative;
+}
+.card-img{
+	width: 170px;
+	height: 110px;
+	background-image: url('../img/card1.png');
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
+.card-name h4{
+	position: absolute;
+	font-size: 14px;
+	color: #669933;
+	top: 20px;
+	left: 230px;
+	line-height: 1.3;
+}
+.card-name h4 span{
+	font-size: 24px;
+	color: #fff;
+}
+.card-titel{
+	font-family: Arial;
+	position: absolute;
+	color: #669933;
+	font-size: 14px;
+	top: 140px;
+	left: 80px;
+}
+.card-history{
+	width:100%;
+	height: 330px;
+	background: #fff;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.card-history h3{
+	width: 100%;
+	height: auto;
+	font-family: Arial;
+	font-size: 18px;
+ 	color: #555;
+ 	float: left;
+ 	margin-bottom: 17px;
+ 	border-bottom: 1px solid #efefef;
+}
+.card-history p{
+	font-size: 24px;
+	float: left;
+}
+.card-history span{
+	font-size: 24px;
+	color: #cd163f;
+}

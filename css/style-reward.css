@@ -1,0 +1,227 @@
+a{
+    text-decoration: none;
+}
+.pageName{
+	width: 100%;
+	height: 60px;
+	background: rgba(92,166,31,1);
+	background: -moz-linear-gradient(top, rgba(92,166,31,1) 0%, rgba(34,121,13,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(92,166,31,1)), color-stop(100%, rgba(34,121,13,1)));
+	background: -webkit-linear-gradient(top, rgba(92,166,31,1) 0%, rgba(34,121,13,1) 100%);
+	background: -o-linear-gradient(top, rgba(92,166,31,1) 0%, rgba(34,121,13,1) 100%);
+	background: -ms-linear-gradient(top, rgba(92,166,31,1) 0%, rgba(34,121,13,1) 100%);
+	background: linear-gradient(to bottom, rgba(92,166,31,1) 0%, rgba(34,121,13,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ca61f', endColorstr='#22790d', GradientType=0 );
+}
+.wrapper{
+	width: 340px;
+    height: auto;
+    margin: 0 auto;
+/*    background-color: red;*/
+}
+.pageName .wrapper .backicon{
+	float: left;
+    padding-top: 17px;
+}
+.pageName .wrapper .backicon img{
+	width: 23px;
+}
+.pageName .wrapper h1{
+	color: white;
+	text-align: center;
+	font-family: helvetica;
+	padding-top: 18px;
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+}
+
+.bgDetail{
+	width: 100%;
+	height: 560px;
+	background-color: white;
+}
+.bgDetail .cup-collect{
+	width: 100%;
+    height: 137px;
+/*	background-color: pink;*/
+}
+.bgDetail .cup-collect .cup img{
+	width: 40px;
+	float: left;
+    margin-left: 34px;
+    margin-top: 10px;
+}
+.bgDetail .cup-collect .cupDetail{
+	width: 266px;
+	height: 52px;
+	float: left;
+	text-align: center;
+/*	background-color: yellow;*/
+	margin-top: 10px;
+}
+.bgDetail .cup-collect .cupDetail h2{
+	font-family: helvetica;
+    color: #6d6d6d;
+    font-size: 11px;
+}
+.bgDetail .cup-collect .cupDetail h3{
+	font-family: helvetica;
+    color: #6d6d6d;
+    font-size: 13px;
+}
+.bgDetail .cup-collect .cupDetail img{
+	width: 247px;
+}  
+.cup-collect h4{
+	font-family: helvetica;
+    font-size: 11px;
+    clear: both;
+    color: #6d6d6d;
+    text-align: center;
+}
+.green{
+	width: 100%;
+	height: 3px;
+	background-color: #98ce7d;
+}
+.cupStar{
+	text-align: center;
+	padding-bottom: 32px;
+}
+.cupStar img{
+	width: 68px;
+	margin-top: 24px;
+}
+.cupStar h2{
+	color: #05734d;
+    padding-top: 14px;
+    font-size: 18px
+}
+.bgDetail h3{
+	color: #8a8a8a;
+    font-size: 13px;
+    font-family: helvetica;
+    padding-top: 25px;
+}
+.bgDetail a{
+	color: #6cb23f;
+	font-size: 13px;
+    font-family: helvetica;
+}
+.menu{
+	width: 100%;
+    height: 79px;
+	background-color: white;
+    overflow: hidden;
+}
+.menu .bgMenu{
+    width: 403px;
+}
+.menu .m-Home{
+	width: 70px;
+    height: 43px;
+    position: absolute;
+    margin-top: -69px;
+    text-align: center;
+    margin-left: 22px;
+}
+.menu .m-Home img{
+    width: 59px;
+}
+.menu .m-Home h1{
+	font-family: helvetica;
+    color: #a19992;
+    font-size: 12px;
+    padding-top: 6px;
+    text-shadow: 2px 2px black;
+}
+
+.menu .m-Card{
+	width: 70px;
+    height: 43px;
+    position: absolute;
+    margin-top: -69px;
+    text-align: center;
+    margin-left: 92px; 
+}
+.menu .m-Card img{
+    width: 59px;
+}
+.menu .m-Card h1{
+	font-family: helvetica;
+    color: #a19992;
+    font-size: 12px;
+    padding-top: 6px;
+    text-shadow: 2px 2px black;
+}
+
+.menu .m-Store{
+	width: 70px;
+    height: 43px;
+    position: absolute;
+    margin-top: -69px;
+    text-align: center;
+    margin-left: 162px;
+}
+.menu .m-Store img{
+    width: 59px;
+}
+.menu .m-Store h1{
+	font-family: helvetica;
+    color: #a19992;
+    font-size: 12px;
+    padding-top: 6px;
+    text-shadow: 2px 2px black;
+}
+
+.menu .m-Message{
+	width: 70px;
+    height: 43px;
+    position: absolute;
+    margin-top: -69px;
+    text-align: center;
+    margin-left: 232px;
+}
+.menu .m-Message img{
+    width: 59px;
+}
+.menu .m-Message h1{
+	font-family: helvetica;
+    color: #a19992;
+    font-size: 12px;
+    padding-top: 6px;
+    text-shadow: 2px 2px black;
+}
+
+.menu .m-More{
+	width: 70px;
+    height: 43px;
+    position: absolute;
+    margin-top: -69px;
+    text-align: center;
+    margin-left: 302px;
+}
+.menu .m-More img{
+    width: 59px;
+}
+.menu .m-More h1{
+	font-family: helvetica;
+    color: #a19992;
+    font-size: 12px;
+    padding-top: 6px;
+    text-shadow: 2px 2px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

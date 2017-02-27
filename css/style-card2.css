@@ -1,0 +1,309 @@
+a{
+    text-decoration: none;
+}
+.pageName{
+	width: 100%;
+	height: 60px;
+	background: rgba(92,166,31,1);
+	background: -moz-linear-gradient(top, rgba(92,166,31,1) 0%, rgba(34,121,13,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(92,166,31,1)), color-stop(100%, rgba(34,121,13,1)));
+	background: -webkit-linear-gradient(top, rgba(92,166,31,1) 0%, rgba(34,121,13,1) 100%);
+	background: -o-linear-gradient(top, rgba(92,166,31,1) 0%, rgba(34,121,13,1) 100%);
+	background: -ms-linear-gradient(top, rgba(92,166,31,1) 0%, rgba(34,121,13,1) 100%);
+	background: linear-gradient(to bottom, rgba(92,166,31,1) 0%, rgba(34,121,13,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ca61f', endColorstr='#22790d', GradientType=0 );
+}
+.wrapper{
+	width: 340px;
+    height: auto;
+    margin: 0 auto;
+}
+.pageName .wrapper h1{
+	color: white;
+	text-align: center;
+	font-family: helvetica;
+	padding-top: 19px;
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+}
+.detailCard{
+	width: 100%;
+    height: 100px;
+	background: rgba(36,47,30,1);
+	background: -moz-linear-gradient(top, rgba(36,47,30,1) 0%, rgba(68,92,52,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(36,47,30,1)), color-stop(100%, rgba(68,92,52,1)));
+	background: -webkit-linear-gradient(top, rgba(36,47,30,1) 0%, rgba(68,92,52,1) 100%);
+	background: -o-linear-gradient(top, rgba(36,47,30,1) 0%, rgba(68,92,52,1) 100%);
+	background: -ms-linear-gradient(top, rgba(36,47,30,1) 0%, rgba(68,92,52,1) 100%);
+	background: linear-gradient(to bottom, rgba(36,47,30,1) 0%, rgba(68,92,52,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242f1e', endColorstr='#445c34', GradientType=0 );
+}
+.detailCard .detailLeft{
+	width: 220px;
+	height: 100px;
+	/*background: yellow;*/
+	float: left;
+}
+.detailCard .detailLeft img{
+	float: left;
+	margin-top: 8px;
+}
+.detailCard .detailLeft h2{
+	font-family: helvetica;
+    color: #6cb23f;
+    margin-left: 38px;
+    margin-top: 13px;
+}
+.detailCard .detailLeft h3{
+    font-family: helvetica;
+    font-size: 13px;
+    color: white;
+    clear: both;
+}
+.detailCard .detailLeft h4{
+	font-family: helvetica;
+    font-size: 10px;
+    color: #9ea29a;
+    padding-top: 10px;
+}
+.detailCard .detailLeft h5{
+	font-family: helvetica;
+    font-size: 31px;
+    color: #64a625;
+    position: absolute;
+    margin-top: -67px;
+    margin-left: 178px;
+}
+.detailCard .detailRight{
+	width: 120px;
+	height: 100px;
+	float: left;
+	text-align: center;
+}
+.detailCard .detailRight button{
+	padding: 8px 13px 8px 13px;
+    color: white;
+    border-radius: 9px;
+    font-size: 15px;
+    margin-top: 32px;
+    background: rgba(106,106,106,1);
+	background: -moz-linear-gradient(top, rgba(106,106,106,1) 0%, rgba(59,59,59,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(106,106,106,1)), color-stop(100%, rgba(59,59,59,1)));
+	background: -webkit-linear-gradient(top, rgba(106,106,106,1) 0%, rgba(59,59,59,1) 100%);
+	background: -o-linear-gradient(top, rgba(106,106,106,1) 0%, rgba(59,59,59,1) 100%);
+	background: -ms-linear-gradient(top, rgba(106,106,106,1) 0%, rgba(59,59,59,1) 100%);
+	background: linear-gradient(to bottom, rgba(106,106,106,1) 0%, rgba(59,59,59,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a6a6a', endColorstr='#3b3b3b', GradientType=0 );
+}
+
+.card{
+	width: 100%;
+	height: 560px;
+	background: rgba(138,138,138,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(138,138,138,1) 0%, rgba(30,30,30,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(138,138,138,1)), color-stop(100%, rgba(30,30,30,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(138,138,138,1) 0%, rgba(30,30,30,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(138,138,138,1) 0%, rgba(30,30,30,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(138,138,138,1) 0%, rgba(30,30,30,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(138,138,138,1) 0%, rgba(30,30,30,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a8a8a', endColorstr='#1e1e1e', GradientType=1 );
+}
+.card .card1{
+	width: 320px;
+    margin-top: 23px;
+}
+.card .card2{
+	width: 320px;
+    position: absolute;
+    margin-top: 23px;
+    right: 375px;
+}
+.card .touch{
+	position: absolute;
+    width: 92px;
+    margin-top: 175px;
+    margin-left: -63px;
+}
+.bath-left{
+	width: 170px;
+    height: 80px;
+	float: left;
+	margin-top: 15px;
+}
+.bath-left h2{
+	font-size: 23px;
+    color: white;
+    padding-top: 15px;
+}
+.bath-left h3{
+	font-family: helvetica;
+    color: white;
+    font-size: 15px;
+    padding-top: 2px;
+}
+.register-right{
+	width: 170px;
+    height: 80px;
+	float: left;
+	margin-top: 15px;
+}
+.register-right h2{
+    font-family: helvetica;
+    font-size: 15px;
+    color: #64a625;
+    text-align: right;
+    padding-top: 29px;
+}
+.manage{
+	padding: 12px 13px 12px 13px;
+    color: white;
+    border-radius: 9px;
+    font-size: 15px;
+    margin-top: 32px;
+    float:left;
+    margin-left: 66px;
+    background: rgba(106,106,106,1);
+	background: -moz-linear-gradient(top, rgba(106,106,106,1) 0%, rgba(59,59,59,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(106,106,106,1)), color-stop(100%, rgba(59,59,59,1)));
+	background: -webkit-linear-gradient(top, rgba(106,106,106,1) 0%, rgba(59,59,59,1) 100%);
+	background: -o-linear-gradient(top, rgba(106,106,106,1) 0%, rgba(59,59,59,1) 100%);
+	background: -ms-linear-gradient(top, rgba(106,106,106,1) 0%, rgba(59,59,59,1) 100%);
+	background: linear-gradient(to bottom, rgba(106,106,106,1) 0%, rgba(59,59,59,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a6a6a', endColorstr='#3b3b3b', GradientType=0 );
+}
+.addAcard{
+	padding: 12px 13px 12px 13px;
+    color: white;
+    border-radius: 9px;
+    font-size: 15px;
+    margin-top: 32px;
+    margin-left: 20px;
+    float:left;
+    background: rgba(106,106,106,1);
+	background: -moz-linear-gradient(top, rgba(106,106,106,1) 0%, rgba(59,59,59,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(106,106,106,1)), color-stop(100%, rgba(59,59,59,1)));
+	background: -webkit-linear-gradient(top, rgba(106,106,106,1) 0%, rgba(59,59,59,1) 100%);
+	background: -o-linear-gradient(top, rgba(106,106,106,1) 0%, rgba(59,59,59,1) 100%);
+	background: -ms-linear-gradient(top, rgba(106,106,106,1) 0%, rgba(59,59,59,1) 100%);
+	background: linear-gradient(to bottom, rgba(106,106,106,1) 0%, rgba(59,59,59,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a6a6a', endColorstr='#3b3b3b', GradientType=0 );
+}
+
+
+
+.menu{
+	width: 100%;
+    height: 79px;
+	background-color: #1e1e1e;
+}
+.menu .bgMenu{
+    width: 403px;
+}
+.menu .m-Home{
+	width: 70px;
+    height: 43px;
+    position: absolute;
+    margin-top: -69px;
+    text-align: center;
+    margin-left: 22px;
+}
+.menu .m-Home img{
+    width: 59px;
+}
+.menu .m-Home h1{
+	font-family: helvetica;
+    color: #a19992;
+    font-size: 12px;
+    padding-top: 6px;
+    text-shadow: 2px 2px black;
+}
+
+.menu .m-Card{
+	width: 70px;
+    height: 43px;
+    position: absolute;
+    margin-top: -69px;
+    text-align: center;
+    margin-left: 92px; 
+}
+.menu .m-Card img{
+    width: 59px;
+}
+.menu .m-Card h1{
+	font-family: helvetica;
+    color: #a19992;
+    font-size: 12px;
+    padding-top: 6px;
+    text-shadow: 2px 2px black;
+}
+
+.menu .m-Store{
+	width: 70px;
+    height: 43px;
+    position: absolute;
+    margin-top: -69px;
+    text-align: center;
+    margin-left: 162px;
+}
+.menu .m-Store img{
+    width: 59px;
+}
+.menu .m-Store h1{
+	font-family: helvetica;
+    color: #a19992;
+    font-size: 12px;
+    padding-top: 6px;
+    text-shadow: 2px 2px black;
+}
+
+.menu .m-Message{
+	width: 70px;
+    height: 43px;
+    position: absolute;
+    margin-top: -69px;
+    text-align: center;
+    margin-left: 232px;
+}
+.menu .m-Message img{
+    width: 59px;
+}
+.menu .m-Message h1{
+	font-family: helvetica;
+    color: #a19992;
+    font-size: 12px;
+    padding-top: 6px;
+    text-shadow: 2px 2px black;
+}
+
+.menu .m-More{
+	width: 70px;
+    height: 43px;
+    position: absolute;
+    margin-top: -69px;
+    text-align: center;
+    margin-left: 302px;
+}
+.menu .m-More img{
+    width: 59px;
+}
+.menu .m-More h1{
+	font-family: helvetica;
+    color: #a19992;
+    font-size: 12px;
+    padding-top: 6px;
+    text-shadow: 2px 2px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
